@@ -278,7 +278,7 @@
 		{
 
 		var tagNames = listToArray( arguments.value ).filter(
-			function ( tagName ) {
+			( tagName ) => {
 
 				// Some ColdFusion custom tags appear to be implemented as pseudo-custom
 				// tags that don't actually expose any state. As such, we have to omit

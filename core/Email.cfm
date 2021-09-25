@@ -468,7 +468,7 @@
 		// minification, let's apply any PRE tag content (which is intended to contain
 		// meaningful whitespace).
 		variables.preContentBlocks.each(
-			function ( preContent, i ) {
+			( preContent, i ) => {
 
 				minifiedContent = variables.reReplaceAll(
 					minifiedContent,

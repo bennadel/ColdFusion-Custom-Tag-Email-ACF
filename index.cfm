@@ -57,6 +57,9 @@
 		<li>
 			<a href="./example14.cfm">Example 14</a> - Font-Weight
 		</li>
+		<li>
+			<a href="./example16.cfm">Example 16</a> - Un-encoded protocols
+		</li>
 	</ul>
 
 </body>
